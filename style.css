@@ -94,7 +94,7 @@ footer{
     color: white;
     text-align: center;
     width: 100%;
-    height: 5%;
+    height: 3%;
     position: fixed;
     bottom: 0;
     left: 0;
@@ -164,10 +164,40 @@ footer{
         background-color: #023047;
         text-decoration: none;
         transition: all 0.3s ease;
-    
+        text-align: center;
 }
 
+table{
+    max-width: 100vw;
+    border-collapse: collapse;
+    border: 1px solid #dcdcdc;
+  }
 
+thead{
+    font-weight: 500;
+}
+  
+td{
+    border: 2px solid #dcdcdc;
+}
+  
+tr{
+    border: 2px solid #dcdcdc;
+}
+  
+.table-filter{
+    width: 100%;
+}
 
-
+.cabecalhotabela{
+    width: 100%;
+    height: 100%;
+    color: 'black';
+    background-color: #b6d3b7;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-size: 26px;
+    font-weight: 700;
+    transition: all 0.3s ease;
+    text-align: center;
+}
 
